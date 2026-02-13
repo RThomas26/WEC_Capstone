@@ -1,0 +1,59 @@
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 7.0.0
+
+Initializing the Simulation Class...
+	Case Dir: C:\Ruben\UW\Capstone\WEC-Sim\trial 
+[Warning: Center of gravity and center of buoyancy are overwritten by h5 data for hydro bodies.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/checkInputs', 'C:\Ruben\UW\Capstone\WEC-Sim\source\objects\bodyClass.m', 303)" style="font-weight:bold">bodyClass/checkInputs</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\objects\bodyClass.m',303,0)">line 303</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Ruben\UW\Capstone\WEC-Sim\source\functions\initializeWecSim.m', 94)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\functions\initializeWecSim.m',94,0)">line 94</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Ruben\UW\Capstone\WEC-Sim\source\wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\wecSim.m',39,0)">line 39</a>)] 
+
+WEC-Sim Pre-processing ...   
+[Warning: Because water depth is specified in the wecSimInputFile, the water depth from the BEM data is ignored] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/setWaterDepth', 'C:\Ruben\UW\Capstone\WEC-Sim\source\objects\waveClass.m', 650)" style="font-weight:bold">waveClass/setWaterDepth</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\objects\waveClass.m',650,0)">line 650</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/setup', 'C:\Ruben\UW\Capstone\WEC-Sim\source\objects\waveClass.m', 271)" style="font-weight:bold">waveClass/setup</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\objects\waveClass.m',271,0)">line 271</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Ruben\UW\Capstone\WEC-Sim\source\functions\initializeWecSim.m', 255)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\functions\initializeWecSim.m',255,0)">line 255</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Ruben\UW\Capstone\WEC-Sim\source\wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\wecSim.m',39,0)">line 39</a>)] 
+Elapsed time is 0.220407 seconds.
+
+WEC-Sim Simulation Settings:
+	Start Time                     (sec) = 0
+	End Time                       (sec) = 400
+	Time Step Size                 (sec) = 0.01
+	Ramp Function Time             (sec) = 100
+	 Number of Time Steps     = 40000 
+
+Wave Environment: 
+	Wave Type                            = Regular Waves (Constant Hydrodynamic Coefficients)
+	Wave Height, height (m)                   = 0.02
+	Wave Period, period (sec)                 = 1
+
+List of Body:
+ 
+Number of Hydro Bodies = 1 
+
+	***** Body Number 1, Name: float1 *****
+	Body CG                          (m) = [0,0,0]
+	Body Mass                       (kg) = 0 
+	Body Moments of Inertia       (kgm2) = [81371,33457,81371]
+	Body Products of Inertia      (kgm2) = [0,0,0]
+
+List of PTO(s): Number of PTOs = 1 
+
+	***** PTO Name: PTO1 *****
+	PTO Stiffness           (N/m;Nm/rad) = 0
+	PTO Damping           (Ns/m;Nsm/rad) = 10
+
+List of Constraint(s): Number of Constraints = 1 
+
+	***** Constraint Name: Constraint1 *****
+
+Elapsed time is 0.150138 seconds.
+
+Simulating the WEC device defined in the SimMechanics model C:\Ruben\UW\Capstone\WEC-Sim\trial\testModel.slx...   
+Elapsed time is 45.633263 seconds.
+
+Post-processing and saving...   
+Elapsed time is 0.386527 seconds.

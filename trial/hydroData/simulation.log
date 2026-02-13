@@ -1,0 +1,17 @@
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run')" style="font-weight:bold">run</a>
+wecSimInputFile not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Ruben\UW\Capstone\WEC-Sim\source\functions\initializeWecSim.m', 56)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\functions\initializeWecSim.m',56,0)">line 56</a>)
+run('wecSimInputFile');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+evalin('caller', strcat(script, ';'));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Ruben\UW\Capstone\WEC-Sim\source\wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Ruben\UW\Capstone\WEC-Sim\source\wecSim.m',39,0)">line 39</a>)
+run('initializeWecSim');
+} 
+clc
+wecSIm
+{Unrecognized function or variable 'wecSIm'.
+} 
+wecSim
